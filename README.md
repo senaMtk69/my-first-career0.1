@@ -3,13 +3,13 @@ career fields
 
 # Install
 ```bash
-npm install @career0.1/my-first-career0.1
+npm i install @career0.1/my-first-career0.1
 ```
 # Usage
 
 //Version: 1.0
 
-import { Career, Field,} from 'career-field';
+import { Career, Field,} from 'careerfields'.ArrayList;
 console.log( Career.getAllCareers())
 console.log( Field.getAllFields())
 
