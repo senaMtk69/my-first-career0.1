@@ -10,6 +10,7 @@ npm i install @career0.1/my-first-career0.1
 //Version: 1.0
 
 import { Career, Field,} from 'careerfields'.ArrayList;
+
 console.log( Career.getAllCareers())
 console.log( Field.getAllFields())
 
@@ -22,133 +23,47 @@ console.log( Field.getAllFields())
 It accepts a valid CareerCode eg: 'AS' and returns Career Details
 
 type: json | ICareer
-
-'careerName': {
     
-    'careerCode': 'TIT'
-    'fieldCode': 'TI'
-    'Technology & IT': [
-    'name': 'IT Systems Assistant',
-    'name': 'IT Support Technician',
-    'name': 'Junior Web Development',
-    'name': 'Help Desk Assistant'
-    ],
+    'careerName': [ 'Technology & IT'],
+    'fieldName': [ 'IT Systems Assistant', 'IT Support Technician', 'Junior Web Development', 'Help Desk Assistant'],
     
-    'careerCode': 'MS'
-    'fieldCode': 'MA'
-    'Marketing & Sales': [
-    'name': 'Junior Marketing Coordinator',
-    'name': 'Sales Associate',
-    'name': 'Junior Content Creator',
-    'name': 'Social Media Assistant',
-    'name': 'Marketing Assistant',
-    'name': 'Sales Development Representative', 
-    'name': 'Member Marketing', 
-    'name': 'Certificate Validator'
-    ], 
+    'careerName': [ 'Marketing & Sales' ],
+    'fieldName': [ 'Junior Marketing Coordinator', 'Sales Associate', 'Junior Content Creator', 'Social Media Assistant', 'Marketing Assistant', 'Sales Development Representative', 'Member Marketing', 'Certificate Validator'], 
 
-    'careerCode': 'FA'
-    'fieldCode': 'FC'
-    'Finance & Accounting': [
-    'name': 'Finance Assistant',
-    'name': 'Financial Analyst Trainee',
-    'name': 'Junior Auditor',
-    'name': 'Accounts Payable Clerk',
-    'name': 'Junior Bookkeeper',
-    'name': 'Payroll Assistant',
-    'name': 'Junior Tax Analyst',
-    'name': 'Trainee Account Assistant'
-    ], 
+    'careerName': [ 'Finance & Accounting' ],
+    'fieldName': ['Finance Assistant', 'Financial Analyst Trainee', 'Junior Auditor', 'Accounts Payable Clerk', 'Junior Bookkeeper', 'Payroll Assistant', 'Junior Tax Analyst', 'Trainee Account Assistant'], 
 
 # Field.getFieldCodeAndCareer(fieldCode, careerCode)
 
-    'careerCode': 'HR'
-    'fieldCode': 'HS'
-    'Human Resources': [
-    'name': 'HR Assistant',
-    'name: 'Junior Recruiter',
-    'name': 'Talent Acquisition Coordinator', 
-    'name': 'HR Coordinator',
-    'name': 'Training Assistant'
-    ],
+    'careerName': [ 'Human Resources' ],
+    'fieldName': ['HR Assistant', 'Junior Recruiter', 'Talent Acquisition Coordinator', 'HR Coordinator', 'Training Assistant' ],
 
-    'careerCode': 'OP'
-    'fieldCode': 'OL'
-    'Operations & Logistics': [
-    'name': 'Operations Assistant',
-    'name': 'Junior Project Coordinator',
-    'name': 'Supply Chain Assistant',
-    'name': 'Logistics Coordinator',
-    'name': 'Procurement Assistant',
-    "name': 'Warehouse Associate'
-    ],
+    'careerName': [ 'Operations & Logistics' ],
+    'fieldName': [ 'Operations Assistant', 'Junior Project Coordinator', 'Supply Chain Assistant', 'Logistics Coordinator', 'Procurement Assistant', 'Warehouse Associate' ],
 
-    'careerCode': 'HC'
-    'fieldCode': 'HL'
-    'Healthcare': [
-    'name': 'Junior Medical Assistant',
-    'name': 'Healthcare Assistant',
-    'name': 'Pharmacy Technician',
-    'name': 'Junior Healthcare Administrator'
-    ],
+    'careerName': [ 'Healthcare' ],
+    'fieldName': [ 'Junior Medical Assistant', 'Healthcare Assistant', 'Pharmacy Technician', 'Junior Healthcare Administrator' ],
 
 # Field.getFieldCode(fieldcode)
 
-    'careerCode': 'EC'
-    'fieldCode': 'EU'
-    'Education': [
-    'name': 'Teachers Assistant',
-    'name': 'Administrative Assistant',
-    'name': 'Admissions Assistant',
-    'name': 'Library Assistant',
-    'name': 'Curriculum Coordinator'
-    ],
+    'careerName': [ 'Education' ]
+    'fieldName': ['Teachers Assistant', 'Administrative Assistant', 'Admissions Assistant', 'Library Assistant', 'Curriculum Coordinator' ],
 
-    'careerCode': 'CD'
-    'fieldCode': 'CT'
-    'Creative & Design': [
-    'name': 'Junior Graphic Designer',
-    'name': 'Creative Assistant',
-    'name': 'Junior Video Editor',
-    'name': 'Social Media Content Designer'
-    ],
+    'careerName': [ 'Creative & Design' ]
+    'fieldName': [ 'Junior Graphic Designer', 'Creative Assistant', 'Junior Video Editor', 'Social Media', Content Designer' ],
 
 # Career.getAllCareers
 
-    'careerCode': 'CS'
-    'fieldCode': 'CV'
-    'Customer Service': [
-    'name': 'Customer Service Assistant',
-    'name': 'Call Center Representative',
-    'name': 'Junior Client Relations Specialist',
-    'name': 'Technical Support Assistant',
-    'name': 'Customer Success Coordinator',
-    'name': 'Junior Help Desk Support'
-    ],
+    'careerName': [ 'Customer Service' ]
+    'fieldName': [ 'Customer Service Assistant', 'Call Center Representative', 'Junior Client Relations Specialist', 'Technical Support Assistant', 'Customer Success Coordinator', 'Junior Help Desk Support' ],
 
 # Field.getAllFields
+ 
+    'careerName': [ 'Engineering' ]
+    'fieldName': [ 'Junior Mechanical Engineer', 'Junior Electrical Engineer', 'Engineering Technician', 'Junior Quality Assurance Engineer', 'Drafting Technician', 'Sheetmetal engineer', 'Artisan Assistant ],
 
-    'careerCode': 'EG'
-    'fieldCode': 'EN'
-    'Engineering': [
-    'name': 'Junior Mechanical Engineer',
-    'name': 'Junior Electrical Engineer',
-    'name': 'Engineering Technician',
-    'name': 'Junior Quality Assurance Engineer',
-    'name': 'Drafting Technician',
-    'name': 'Sheetmetal engineer',
-    'name': 'Artisan Assistant'
-    ],
-
-    'careerCode': 'AD'
-    'fieldCode': 'AM'
-    'Administration': [
-    'name': 'Administrative Assistant',
-    'name': 'Trainee Scanner',
-    'name': 'Trainee Admin Assistant',
-    'name': 'Trainee Marketing Assistant',
-    'name': 'Office Coordinator'
-    ],
+    'careerName':'Administration': [
+    'fieldName': [ 'Administrative Assistant', 'Trainee Scanner', 'Trainee Admin Assistant', 'Trainee Marketing Assistant', 'Office Coordinator' ],
 
 # Keywords
 
