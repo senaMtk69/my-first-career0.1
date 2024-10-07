@@ -18,8 +18,6 @@ console.log( Field.getAllFields())
 
 # Installations
 
-# Docs
-
 # Career.getCareerByName(careerName)
 
 It accepts a valid careerName eg: 'Technology & IT' and returns Career Details.
