@@ -1,17 +1,16 @@
 # careerfield0.3
+
 career fields
 
 # Install
-
 ```bash
 npm i install @career0.3/my-first-career0.3
 ```
-
 # Usage
 
 //Version: 3.0
 
-import { Career, Field } from 'careerfields' ;
+import { Career, Field } from 'careerfields';
 
 console.log( Career.getAllCareers())
 console.log( Field.getAllFields())
