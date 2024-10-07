@@ -1,15 +1,17 @@
-# career0.1
+# careerfield0.3
 career fields
 
 # Install
+
 ```bash
-npm i install @career0.1/my-first-career0.1
+npm i install @career0.3/my-first-career0.3
 ```
+
 # Usage
 
-//Version: 1.0
+//Version: 3.0
 
-import { Career, Field,} from 'careerfields'.ArrayList;
+import { Career, Field } from 'careerfields' ;
 
 console.log( Career.getAllCareers())
 console.log( Field.getAllFields())
@@ -18,9 +20,9 @@ console.log( Field.getAllFields())
 
 # Docs
 
-# Career.getCareerByCode(careerCode)
+# Career.getCareerByName(careerName)
 
-It accepts a valid CareerCode eg: 'AS' and returns Career Details
+It accepts a valid careerName eg: 'Technology & IT' and returns Career Details.
 
 type: json | ICareer
     
@@ -33,7 +35,7 @@ type: json | ICareer
     'careerName': [ 'Finance & Accounting' ],
     'fieldName': ['Finance Assistant', 'Financial Analyst Trainee', 'Junior Auditor', 'Accounts Payable Clerk', 'Junior Bookkeeper', 'Payroll Assistant', 'Junior Tax Analyst', 'Trainee Account Assistant'], 
 
-# Field.getFieldCodeAndCareer(fieldCode, careerCode)
+# Field.getFieldNameAndCareer(fieldName, careerName)
 
     'careerName': [ 'Human Resources' ],
     'fieldName': ['HR Assistant', 'Junior Recruiter', 'Talent Acquisition Coordinator', 'HR Coordinator', 'Training Assistant' ],
@@ -44,7 +46,9 @@ type: json | ICareer
     'careerName': [ 'Healthcare' ],
     'fieldName': [ 'Junior Medical Assistant', 'Healthcare Assistant', 'Pharmacy Technician', 'Junior Healthcare Administrator' ],
 
-# Field.getFieldCode(fieldcode)
+# Field.getFieldName(fieldName)
+
+It accepts a valid fieldName eg 'Teachers Assistant, Adminstrative Assistant,...' and returns the Field Details.
 
     'careerName': [ 'Education' ],
     'fieldName': ['Teachers Assistant', 'Administrative Assistant', 'Admissions Assistant', 'Library Assistant', 'Curriculum Coordinator' ],
