@@ -46,23 +46,23 @@ type: json | ICareer
 
 # Field.getFieldCode(fieldcode)
 
-    'careerName': [ 'Education' ]
+    'careerName': [ 'Education' ],
     'fieldName': ['Teachers Assistant', 'Administrative Assistant', 'Admissions Assistant', 'Library Assistant', 'Curriculum Coordinator' ],
 
-    'careerName': [ 'Creative & Design' ]
+    'careerName': [ 'Creative & Design' ],
     'fieldName': [ 'Junior Graphic Designer', 'Creative Assistant', 'Junior Video Editor', 'Social Media', Content Designer' ],
 
 # Career.getAllCareers
 
-    'careerName': [ 'Customer Service' ]
+    'careerName': [ 'Customer Service' ],
     'fieldName': [ 'Customer Service Assistant', 'Call Center Representative', 'Junior Client Relations Specialist', 'Technical Support Assistant', 'Customer Success Coordinator', 'Junior Help Desk Support' ],
 
 # Field.getAllFields
  
-    'careerName': [ 'Engineering' ]
+    'careerName': [ 'Engineering' ],
     'fieldName': [ 'Junior Mechanical Engineer', 'Junior Electrical Engineer', 'Engineering Technician', 'Junior Quality Assurance Engineer', 'Drafting Technician', 'Sheetmetal engineer', 'Artisan Assistant ],
 
-    'careerName':'Administration': [
+    'careerName': ['Administration'],
     'fieldName': [ 'Administrative Assistant', 'Trainee Scanner', 'Trainee Admin Assistant', 'Trainee Marketing Assistant', 'Office Coordinator' ],
 
 # Keywords
